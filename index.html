@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----------CSS---------->
+    <link rel="stylesheet" href="style.css">
+    <!-----------Remix Icon------->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <!-----------Box Icon------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-------------Header------------------>
+    <header class="nav">
+        <a href="#" class="logo">Rochana Suma Y</a>
+
+        <div class="nav-container">
+            <ul class="navbar">
+                <li class="nav-link active-link"><a href="#">Home</a></li>
+                <li class="nav-link active-link"><a href="education.html">Education</a></li>
+                <li class="nav-link active-link"><a href="spic.html">Skills</a></li>
+                <li class="nav-link active-link"><a href="ppic.html">Projects</a></li>
+                <li class="nav-link active-link"><a href="index.html">Contact Me</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!------------Profile Section----------->
+   
+    <section id="profile">
+        <div class="image">
+            <img src="Pics/Rochana.png" alt="profilep pic">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm</p>
+            <h1 class="title">Rochana Suma Y</h1>
+            <p class="section__text__p2">As a graduate student specialized in Computer Science and Engineering,</p>
+            <p class="section__text__p3">I am passionate about leveraging technology to solve real-world problems</p>
+            <p class="section__text__p4">with a strong foundation in programming and front end web development.</p>
+            <p class="section__text__p5">I have honed my skills through coursework and hands-on projects.</p>
+            
+            <div class="btn-container">
+                <button class="btn btn-color-2" id="downloadBtn">Download CV</button>
+            </div>
+            
+            <script>
+                // JavaScript to handle button clicks
+                document.getElementById("downloadBtn").onclick = function() {
+                    
+                    window.open('https://drive.google.com/file/d/1k2haoI6U78IE6P7-MkmGxGusERNAJz0t/view?usp=sharing', '_blank');
+                };
+            </script>
+
+            <div id="socials-container">
+                <a href="https://github.com/Rochanasuma18" target="_blank"><i class="ri-github-line social-icon"></i></a>
+                <a href="https://www.linkedin.com/in/rochana-suma-y" target="_blank"><i class="ri-linkedin-line social-icon"></i></a>
+                <a href="https://rochanasuma2003@gmail.com" target="_blank"><i class="ri-mail-line social-icon"></i></a>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-------------FontAwesome-------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+       
+</body>
+</html>
